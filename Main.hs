@@ -5,8 +5,7 @@ import System.Environment (getArgs)
 -- Third party wrapper around Foreign C stuff with ioctl etc
 import System.Console.Terminal.Size
 
-
--- NB: The output will always end with a new line, even if the input didn't
+import Lining (linesNL, unlinesNL)
 
 
 main :: IO ()
@@ -20,4 +19,4 @@ main = do
                         [] -> default_width
                         [width_str] -> read width_str -- FIXME handle unparseable
                         _ -> error "too many args"
-    interact $ unlines . (map (take width)) . lines
+    interact $ unlinesNL . (map (take width)) . linesNL

@@ -21,5 +21,6 @@ executable trim-hs
   -- other-extensions:
   build-depends:       base >=4.8 && <4.9
   build-depends:       terminal-size
+  build-depends:       split
   -- hs-source-dirs:
   default-language:    Haskell2010
