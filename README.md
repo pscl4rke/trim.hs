@@ -30,4 +30,6 @@ Then build:
 
 You will find the binary hiding under `dist/`.
 
-There is no test suite.
+You can run the test suite by installing Cram and running:
+
+    $ make test
