@@ -5,8 +5,8 @@ name:                trim-hs
 version:             0.1
 -- synopsis:
 -- description:
-license:             GPL-2
-license-file:        LICENSE
+license:             GPL-3
+license-file:        LICENCE.txt
 author:              P. S. Clarke
 maintainer:          trim.hs@pscl4rke.net
 -- copyright:
